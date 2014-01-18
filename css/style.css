@@ -1,0 +1,58 @@
+@import url("../../ember/styles/style.css");
+
+/* fields */
+[dir="ltr"] fieldset {
+	border-left-width: 1px;
+}
+
+[dir="ltr"] legend {
+	margin-left: 0;
+}
+
+div.vertical-tabs {
+	margin: 1em 0 1em 16em;
+}
+
+.vertical-tabs ul.vertical-tabs-list {
+	width: 16em;
+	margin: -1px 0 -1px -16em;
+}
+
+/* forms */
+#edit-cancel {
+	line-height: 1em;
+}
+
+/* 
+	media browser 
+*/
+/* tabs */
+#media-browser-tabset #branding h1.page-title {
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
+#media-browser-tabset #branding .primary a {
+	font-size: 1.5em;
+}
+
+/* sonstiges */
+#media-browser-tabset h3 {
+	font-size: 1.5em;
+}
+
+
+/* form */
+#media-browser-tabset input[type="text"],
+#media-browser-tabset select {
+	padding: 0.5em;
+	font-size: 0.857142857em;
+}
+
+#media-browser-tabset select {
+	padding-right: 2em;
+}
+
+#media-browser-tabset .button {
+	padding: 0.5em 0.75em;
+}

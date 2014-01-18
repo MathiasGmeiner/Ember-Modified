@@ -1,0 +1,9 @@
+name = Ember Modified
+description = Ember theme modified by /weitweit
+base theme = ember
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+stylesheets[screen][] = ../ember/styles/style.css
+stylesheets[screen][] = css/style.css
