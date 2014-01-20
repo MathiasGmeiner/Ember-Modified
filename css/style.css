@@ -18,6 +18,10 @@ div.vertical-tabs {
 	margin: 1em 0 1em 16em;
 }
 
+.tabs a:hover {
+	text-decoration: none;
+}
+
 .vertical-tabs ul.vertical-tabs-list {
 	width: 16em;
 	margin: -1px 0 -1px -16em;
@@ -66,4 +70,11 @@ html.js fieldset.collapsed {
 
 #media-browser-tabset .button {
 	padding: 0.5em 0.75em;
+}
+
+/* admin-menu */
+#admin-menu {
+	box-shadow: 0px -1px 4px 1px rgb(30,30,30);
+	background-image: none;
+	background-color: rgb(36,36,40);
 }
