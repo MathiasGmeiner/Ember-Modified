@@ -18,7 +18,8 @@ div.vertical-tabs {
 	margin: 1em 0 1em 16em;
 }
 
-.tabs a:hover {
+.tabs a:hover,
+.fieldset-title:hover {
 	text-decoration: none;
 }
 
@@ -77,4 +78,9 @@ html.js fieldset.collapsed {
 	box-shadow: 0px -1px 4px 1px rgb(30,30,30);
 	background-image: none;
 	background-color: rgb(36,36,40);
+}
+
+#admin-menu li.admin-menu-account > a {
+	background-image: none;
+	background-color: rgb(191,66,0);
 }
